@@ -65,7 +65,7 @@ export function LoginPage({ onLogin }: LoginPageProps) {
                 <Input
                   id="username"
                   type="text"
-                  placeholder="student1 / teacher1 / admin1"
+                  placeholder="Username"
                   value={username}
                   onChange={(e) => setUsername(e.target.value)}
                   className="pl-10 h-12 w-full bg-gray-50 border border-gray-300 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-colors dark:bg-gray-700 dark:border-gray-600 dark:text-white"
@@ -97,8 +97,6 @@ export function LoginPage({ onLogin }: LoginPageProps) {
               <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </Button>
           </form>
-
-         
         </div>
       </div>
     </div>
