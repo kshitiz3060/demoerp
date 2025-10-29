@@ -52,8 +52,8 @@ export function LoginPage({ onLogin }: LoginPageProps) {
           <div className="mx-auto h-16 w-16 rounded-2xl bg-gradient-to-br from-indigo-600 to-indigo-400 flex items-center justify-center shadow-lg shadow-indigo-500/30">
             <GraduationCap className="h-9 w-9 text-white" />
           </div>
-          <h1 className="text-3xl font-bold text-gray-900 dark:text-white">ERP Portal</h1>
-          <p className="text-sm text-gray-500 dark:text-gray-400">Sign in to access your ERP portal</p>
+          <h1 className="text-3xl font-bold text-gray-900 dark:text-white">XEROAPLHA</h1>
+          <p className="text-sm text-gray-500 dark:text-gray-400">Sign in to access</p>
         </div>
 
         <div className="bg-white/90 backdrop-blur-md border border-gray-200/50 rounded-2xl p-8 shadow-2xl dark:bg-gray-800/90 dark:border-gray-700">
@@ -98,14 +98,7 @@ export function LoginPage({ onLogin }: LoginPageProps) {
             </Button>
           </form>
 
-          <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700 text-center text-xs text-gray-500 dark:text-gray-400">
-            Demo accounts (Password: anything):
-            <div className="mt-1 space-y-1">
-              <p className="font-mono bg-gray-100 dark:bg-gray-700 inline-block px-2 py-0.5 rounded-md">student1</p>
-              <p className="font-mono bg-gray-100 dark:bg-gray-700 inline-block px-2 py-0.5 rounded-md">teacher1</p>
-              <p className="font-mono bg-gray-100 dark:bg-gray-700 inline-block px-2 py-0.5 rounded-md">admin1</p>
-            </div>
-          </div>
+         
         </div>
       </div>
     </div>
